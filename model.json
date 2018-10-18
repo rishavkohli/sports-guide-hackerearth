@@ -1,0 +1,186 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "sports guide",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "hey",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "what"
+                    ]
+                },
+                {
+                    "name": "details",
+                    "slots": [
+                        {
+                            "name": "games",
+                            "type": "games"
+                        }
+                    ],
+                    "samples": [
+                        "{games}"
+                    ]
+                },
+                {
+                    "name": "yesRules",
+                    "slots": [],
+                    "samples": [
+                        "yes tell me a rule",
+                        "yes give give rules",
+                        "give me rules",
+                        "yes tell me rules",
+                        "rules",
+                        "yes i want rules",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "noRules",
+                    "slots": [],
+                    "samples": [
+                        "nope",
+                        "no i don't want rules",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "loc",
+                    "slots": [
+                        {
+                            "name": "location",
+                            "type": "location"
+                        }
+                    ],
+                    "samples": [
+                        "i live in {location}",
+                        "my location is {location}",
+                        "i choose {location}",
+                        "{location}"
+                    ]
+                },
+                {
+                    "name": "coachingAcademy",
+                    "slots": [],
+                    "samples": [
+                        "tell me a list of  coaching academy",
+                        "give me a list of coaching academy",
+                        "i choose coaching academy",
+                        "i choose list of coaching academy",
+                        "coaching academy"
+                    ]
+                },
+                {
+                    "name": "equipmentStore",
+                    "slots": [],
+                    "samples": [
+                        "i choose a list of equipment store",
+                        "list of equipment store",
+                        "give me a list of equipment store",
+                        "i choose equipment store",
+                        "equipment store"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "games",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Football",
+                                "synonyms": [
+                                    "football"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cricket",
+                                "synonyms": [
+                                    "cricket"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hockey",
+                                "synonyms": [
+                                    "hockey"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Basketball",
+                                "synonyms": [
+                                    "basketball"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "location",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Bengaluru",
+                                "synonyms": [
+                                    "bangalore",
+                                    "Bangalore",
+                                    "Bengaluru",
+                                    "bengaluru"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kolkata",
+                                "synonyms": [
+                                    "Kolkata",
+                                    "kolkata"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mumbai",
+                                "synonyms": [
+                                    "mumbai",
+                                    "Mumbai"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Delhi",
+                                "synonyms": [
+                                    "delhi"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
